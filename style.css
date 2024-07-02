@@ -11,7 +11,7 @@ body{
         background-color: #1C1C1C;
         max-width: 100%;
         height: 100vh;
-        overflow: hidden;
+     
         color: #fdfdfd;
 }
 
@@ -27,7 +27,7 @@ nav{
 }
 
 h2{
-    color: whitesmoke;
+    color: #fdfdfd;
     text-align: center;
     font-family: "Montserrat", cursive;
     font-weight: normal;
@@ -101,4 +101,18 @@ ul li{
 
 .hng{
     text-align: center;
+}
+
+
+@media (max-width: 1024px) {
+
+    main{
+        flex-direction: column-reverse;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
 }
