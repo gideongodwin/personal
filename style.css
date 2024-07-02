@@ -109,11 +109,4 @@ ul li{
     main{
         flex-direction: column-reverse;
     }
-
-    footer{
-        position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-    }
 }
